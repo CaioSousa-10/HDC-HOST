@@ -11,12 +11,15 @@ html {
 
 header {
     background-color: #232a31;
-    position: relative;
     padding: 1.3rem 3rem;
 }
 
+.reader {
+    position: relative;
+}
+
 .logo {
-    width: 4%;
+    width: 5rem;
 }
 
 #btn-entrar {
@@ -52,13 +55,11 @@ header {
 }
 
 .main-banner h1 {
-
     font-size: 5rem;
     color: #fff;
     text-align: center;
     font-weight: bold;
     text-shadow: #000 3px 2px 3px;
-
 }
 
 .main-banner h2 {
@@ -68,4 +69,5 @@ header {
     font-weight: bold;
     text-shadow: #000 3px 2px 3px;
 }
+
 

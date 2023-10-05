@@ -40,7 +40,32 @@ header {
 }
 
 .nav-items a:hover {
-    color: #dad2d2;
+    color: #c9bcbc;
     transition: 1s;
+}
+
+.main-banner {
+    background-image: url('../img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+}
+
+.main-banner h1 {
+
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+
+}
+
+.main-banner h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
 }
 

@@ -120,6 +120,8 @@ header {
 
 .plans-and-prices {
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .plans-and-prices h2 {
@@ -132,4 +134,87 @@ header {
     color: #70747a;
 }
 
+.plans {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
 
+.prices {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    width: 26rem;
+    margin: 0 auto;
+}
+
+.prices li{
+    list-style: none;
+}
+
+.type-plan {
+    background-color: #202b34;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.prices-of-plan {
+    background-color: #2cc762;
+    font-size: 1.6rem;
+    width: 12rem;
+    height: 12rem;
+    line-height: 12rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 8rem;
+}
+
+#dedicado-plus {
+    background-color: #f45c57;
+    font-size: 1.6rem;
+    width: 12rem;
+    height: 12rem;
+    line-height: 12rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 8rem;
+}
+
+.brinde li{
+    background-color: #e8e9ea;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.btn-to-know-more {
+    line-height: 7rem;
+    font-size: 2.2rem;
+    background-color: #2cc762;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-to-know-more-dedicado-plus {
+    line-height: 7rem;
+    font-size: 2.2rem;
+    background-color: #f45c57;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-plans {
+    padding-top: 7rem;
+    position: relative;
+    margin-right: 2rem;
+}

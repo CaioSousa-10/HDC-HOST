@@ -217,4 +217,105 @@ header {
     padding-top: 7rem;
     position: relative;
     margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.domain-search {
+    background-color: #34454e;
+    padding: 5rem 4rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.domain-search h2 {
+    font-size: 4.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.domain-search p {
+    font-size: 2.4rem;
+    color: #d5d5d5;
+    margin-bottom: 2.5rem;
+}
+
+.domain-search input[type="text"] {
+    width: 60%;
+    padding: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.domain-search input[type="submit"] {
+    background-color: #2cc76a;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.domain-search input {
+    display: block;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 auto;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    margin-top: 5rem;
+}
+
+.contact-us h2 {
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.contact-us p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #70747a;
+}
+
+.contact-us input {
+    width: 200px;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin: 0 1rem 2rem;
+    box-sizing: border-box;
+}
+
+.contact-us textarea {
+    display: block;
+    margin: 0 auto 2rem;
+    width: 47rem;
+    height: 15rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-us input[type="submit"] {
+    background-color: #2cc762;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 5rem 0 10rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: #70747a;
 }

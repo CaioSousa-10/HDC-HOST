@@ -410,3 +410,26 @@ footer p {
         width: 35rem;
     }
 }
+
+@media (max-width: 320px) {
+    .plans {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .container-plans {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contact-us textarea {
+        width: 27rem;
+    }
+
+    .nav-items a {
+        font-size: 1rem;
+    }
+
+    .nav-items {
+        word-spacing: 0.7rem;
+    }
+}

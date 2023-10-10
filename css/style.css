@@ -319,3 +319,94 @@ footer p {
     font-size: 1.6rem;
     color: #70747a;
 }
+
+@media (max-width: 768px) {
+    .main-banner h2 {
+        padding: 3rem;
+    }
+
+    .container-plans {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav-items {
+        word-spacing: 1.5rem;
+    }
+
+    .nav-items a {
+        font-size: 1.3rem;
+    }
+
+    #btn-entrar {
+        padding: 10px;
+    }
+
+    .website-features {
+        padding: 0;
+    }
+
+    .contact-us textarea {
+        width: 37rem;
+    }
+
+    .website-features div {
+        margin: 3rem auto;
+    }
+
+    .prices-of-plan {
+        left: 10rem;
+    }
+
+    #dedicado-plus {
+        left: 10rem;
+    }
+
+    .contact-us input {
+        width: 250px;
+    }
+
+    .domain-search {
+        padding: 5rem 1.2rem;
+    }
+
+    .domain-search input[type="text"] {
+        width: 70%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    header {
+        padding: 1.3rem 1rem;
+    }
+
+    .nav-items {
+        word-spacing: 1rem;
+    }
+
+    .nav-items a {
+        font-size: 1.2rem;
+    }
+
+    .website-features {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .website-features div {
+        width: 30rem;
+    }
+
+    .prices-of-plan {
+        left: 7.6rem;
+    }
+
+    #dedicado-plus {
+        left: 7.6rem;
+    }
+
+    .contact-us textarea {
+        width: 35rem;
+    }
+}
